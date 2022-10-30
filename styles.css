@@ -1,12 +1,20 @@
 .grid{
-    width: 500px;
     display: inline-grid;
     justify-content: center;
     border: 1px solid black;
-    gap: 1px;
+}
+
+.cell{
+    border: 0.5px solid black;
 }
 
 .button-div{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container{
     padding: 10px;
     display: flex;
     justify-content: center;
