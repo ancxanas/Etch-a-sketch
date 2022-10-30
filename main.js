@@ -1,6 +1,14 @@
 const container = document.getElementById('container');
 
+//Header div
+const headingDiv = document.createElement('div');
+headingDiv.classList.add('heading-div');
+container.appendChild(headingDiv);
 
+//Heading Etch-a-Sketch
+const HEADING = document.createElement('h1');
+HEADING.textContent = 'Etch-a-Sketch';
+headingDiv.appendChild(HEADING);
 
 //div for buttons
 const buttonDiv = document.createElement('div');
@@ -11,21 +19,6 @@ container.appendChild(buttonDiv);
 const resetButton = document.createElement('button');
 resetButton.textContent = 'Reset';
 buttonDiv.appendChild(resetButton);
-
-//black color
-const blackButton = document.createElement('button');
-blackButton.textContent = 'Black';
-buttonDiv.appendChild(blackButton);
-
-//rainbow button
-const rainbowButton = document.createElement('button');
-rainbowButton.textContent = 'Rainbow';
-buttonDiv.appendChild(rainbowButton);
-
-//clear button
-const clearButton = document.createElement('button');
-clearButton.textContent = 'Clear';
-buttonDiv.appendChild(clearButton);
 
 //grid in a seperate div
 const grid = document.createElement('div');

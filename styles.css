@@ -1,11 +1,16 @@
-.grid{
-    display: inline-grid;
-    justify-content: center;
-    border: 1px solid black;
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.cell{
-    border: 0.5px solid black;
+body{
+    background-color: #808080;
+}
+
+.grid{
+    background-color: #ffffff;
+    display: inline-grid;
+    justify-content: center;
+    border: 1px solid #ffffff;
 }
 
 .button-div{
@@ -14,8 +19,25 @@
     justify-content: center;
 }
 
+button{
+    background-color: #ffffff;
+    color: #808080;
+    padding: 10px;
+    border: none;
+}
+
 .grid-container{
     padding: 10px;
     display: flex;
     justify-content: center;
+}
+
+.heading-div{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 45px;
 }
