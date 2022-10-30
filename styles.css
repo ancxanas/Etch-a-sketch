@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #808080;
+    background-color: #008080;
 }
 
 .grid{
@@ -20,8 +20,9 @@ body{
 }
 
 button{
+    font-weight: bold;
     background-color: #ffffff;
-    color: #808080;
+    color: #008080;
     padding: 10px;
     border: none;
 }
