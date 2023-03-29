@@ -1,2 +1,3 @@
 # Etch-a-sketch
-A TOP project to test my skills in DOM.
+
+[Live Demo](https://ancxanas.github.io/Etch-a-sketch/)
